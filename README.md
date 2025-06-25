@@ -98,27 +98,17 @@ Records two book loans:
 
 ## Table Outputs (Screenshots)
 
-Below are the outputs of `SELECT *` queries run against each table in the database. These screenshots provide a visual confirmation of inserted, updated, and deleted data.
+Screenshots showing the output of `SELECT *` queries from each table are included in the `screenshots/` folder.
 
- These screenshots reflect the current state of the database after executing all `INSERT`, `UPDATE`, and `DELETE` operations from the script.
+These images visually confirm that data was successfully inserted, updated, and deleted as per the script. These screenshots reflect the current state of the database after executing all `INSERT`, `UPDATE`, and `DELETE` operations from the script.
 
-### Book Table
-![Book Table Output](screenshots/book_table_output.png)
-
-### Author Table
-![Author Table Output](screenshots/author_table_output.png)
-
-### Book–Author Table (Join Table)
-![Book_Author Table Output](screenshots/book_author_table_output.png)
-
-### Category Table
-![Category Table Output](screenshots/category_table_output.png)
-
-### Member Table
-![Member Table Output](screenshots/member_table_output.png)
-
-### Loan Table
-![Loan Table Output](screenshots/loan_table_output.png)
+> Navigate to the `screenshots/` directory to view:
+- Book Table
+- Author Table
+- Book–Author Join Table
+- Category Table
+- Member Table
+- Loan Table
 
 ---
 
