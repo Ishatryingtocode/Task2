@@ -106,3 +106,27 @@ Records two book loans:
 SELECT * FROM book;
 SELECT * FROM author;
 SELECT * FROM loan;
+
+## 📸 Table Outputs (Screenshots)
+
+Below are the outputs of `SELECT *` queries run against each table in the database. These screenshots provide a visual confirmation of inserted, updated, and deleted data.
+
+ These screenshots reflect the current state of the database after executing all `INSERT`, `UPDATE`, and `DELETE` operations from the script.
+
+### Book Table
+![Book Table Output](screenshots/book_table_output.png)
+
+### Author Table
+![Author Table Output](screenshots/author_table_output.png)
+
+### Book–Author Table (Join Table)
+![Book_Author Table Output](screenshots/book_author_table_output.png)
+
+### Category Table
+![Category Table Output](screenshots/category_table_output.png)
+
+### Member Table
+![Member Table Output](screenshots/member_table_output.png)
+
+### Loan Table
+![Loan Table Output](screenshots/loan_table_output.png)
