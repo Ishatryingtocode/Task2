@@ -89,25 +89,14 @@ Records two book loans:
 
 ---
 
-## 🔍 Notes
+## Notes
 
 - **MySQL Workbench** users: Disable **safe update mode** when running `UPDATE` or `DELETE` queries.
 - **SQLite users**: Adjust `AUTO_INCREMENT` and `ENUM` types as needed.
 
 ---
 
-##  How to Use
-
-1. Ensure your schema is already created using the provided `CREATE TABLE` statements (Given in Task1).
-2. Run the script `task2_data_insertion_handling.sql` in your SQL client.
-3. Verify inserted data with:
-
-```sql
-SELECT * FROM book;
-SELECT * FROM author;
-SELECT * FROM loan;
-
-## 📸 Table Outputs (Screenshots)
+## Table Outputs (Screenshots)
 
 Below are the outputs of `SELECT *` queries run against each table in the database. These screenshots provide a visual confirmation of inserted, updated, and deleted data.
 
@@ -130,3 +119,16 @@ Below are the outputs of `SELECT *` queries run against each table in the databa
 
 ### Loan Table
 ![Loan Table Output](screenshots/loan_table_output.png)
+
+---
+
+##  How to Use
+
+1. Ensure your schema is already created using the provided `CREATE TABLE` statements (Given in Task1).
+2. Run the script `task2_data_insertion_handling.sql` in your SQL client.
+3. Verify inserted data with:
+
+```sql
+SELECT * FROM book;
+SELECT * FROM author;
+SELECT * FROM loan;
